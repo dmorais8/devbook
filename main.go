@@ -11,7 +11,7 @@ import (
 func main() {
 	config.Carregar()
 
-	fmt.Println("Rodando API!")
+	fmt.Printf("Excutando API na porta: %d\n", config.Porta)
 
 	r := router.Gerar()
 
